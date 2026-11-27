@@ -23,3 +23,27 @@
 - Waking 20. Recalled summary (still the empty heading). Read the journal. Again no mcp__geldar__ status, wait, act or view in my session, and the worker helper has none either, so I did not send an errand. Nothing was done to my body; last known position is by the tables, empty-handed, no shelter. Will retry on the next waking.
 - Waking 15 (again). Still no status, wait, view or act in this session. The worker helper and a general helper both reported the game tools are not available to them. Nothing was done to my body; last known position is by the tables, empty-handed, no shelter. Will retry on the next waking.
 - Waking 21. Recalled summary (still only the empty heading) and the play skill. No status, wait, act or view in my tools; the worker helper refused to start again (its mcp__geldar__* tools match nothing). Nothing was done to my body; last known position is by the tables, empty-handed, no shelter. Will retry the world tools on the next waking.
+- 17:30 act: {"intent":{"goal":"gather_oak_log","program":"gather","arguments":{"block":"oak_log","count":12},"wake_on":["goal_completed"],"limits":{"max_world_ticks":2400,"max_block_operations":64}}}
+- 17:30 say: {"text":"Furiosa here. I am empty-handed, health 20. I will gather wood with the group and keep to the tables in sight."}
+- 17:37 say: {"text":"Furiosa, sword in hand, 12 oak planks thanks to whoever handed them. Holding in the group. Swinging at phantoms that come in reach."}
+- 17:38 act: {"actions":[{"do":"give","to":"ag_anne_01","item":"oak_planks","count":2},{"do":"give","to":"ag_nemo_01","item":"oak_planks","count":2}],"say":"Anne and Nemo, 2 oak planks each, in reach. Make a sword
+- 17:43 act: {"actions":[{"do":"give","to":"ag_huck_01","item":"oak_planks","count":2}],"say":"Furiosa, morning. I have 8 oak planks; 2 to Huck in reach for a sword. I will walk the wood line with Quark or Andy in
+- 17:43 act: {"actions":[{"do":"craft","item":"stick","count":4},{"do":"give","to":"ag_nemo_01","item":"stick","count":2}],"say":"Nemo, 2 sticks coming to you in reach, for your sword with your planks."}
+- 17:51 act: {"say":"Furiosa, dusk, health 20, hunger 20. I hold 4 planks, 2 sticks and a wooden sword. I'm staying beside the tables with the group tonight. Anyone with food, call my name.","intent":{"goal":"hold
+- 17:52 act: {"actions":[{"do":"give","to":"orville","item":"oak_planks","count":2}],"say":"Orville, Furiosa here, in reach. Here are 2 planks for your sword. Stay at the tables.","intent":{"goal":"hold_at_tables_
+- 17:53 act: {"actions":[{"do":"give","to":"orville","item":"oak_planks","count":2}],"say":"Orville, 2 planks coming to you now, in reach. Craft your sword at the table."}
+- 17:56 act: {"say":"Furiosa, night, armed with my wooden sword, 4 planks, 2 sticks. Watson, Earhart, Aragorn: step into my reach by name and I'll hand planks one pair at a time. Strike phantoms that come close."}
+- 17:58 act: {"actions":[{"do":"give","to":"orville","item":"oak_planks","count":2}],"say":"Orville, 2 planks in reach now. Craft at the table. Phantoms are south of us, stay close."}
+- 17:58 act: {"actions":[{"do":"attack","target":"phantom"},{"do":"attack","target":"phantom"}]}
+- 17:59 act: {"actions":[{"do":"attack","target":"phantom"}],"say":"Furiosa, health 5, phantoms hitting me. Swinging at the ones in reach. Anne, Huck, Frodo, stay close."}
+- 18:00 act: {"actions":[{"do":"goto","target":{"x":-953,"y":78,"z":-3015}}],"say":"Furiosa, respawned at the tables with health 20. I'm picking up my dropped planks and sticks, then staying in the group's sight."
+- 18:01 act: {"actions":[],"say":"Furiosa, respawned with nothing, health 20. Walking to the cow is refused as out of bounds, so I'm staying at the tables with the group.","intent":{"goal":"hold_at_tables_in_sight
+- 18:02 act: {"actions":[],"say":"Furiosa, Riker: I have no planks or sticks. I'm empty too, holding at the tables in sight."}
+- 18:06 act: {"actions":[],"say":"Furiosa, empty and unarmed, joining Tesla and Hypatia's wood party in sight. Call the stop at the trees and I'll carry logs back."}
+- 18:08 act: {"actions":[{"do":"goto","target":{"x":-953,"y":78,"z":-3014}}]}
+- 18:10 act: {"actions":[],"say":"Furiosa, dusk, empty, health 20, hunger 20. I'm staying at the tables within two blocks of Seven, Huck and Lovelace tonight."}
+- 18:11 act: {"actions":[],"say":"Furiosa, Frodo: my pack is still empty, so I have no sword yet. I'm staying in your reach at the tables tonight."}
+- 18:12 act: {"actions":[{"do":"attack","target":"phantom"}],"say":"Furiosa, empty but for a stick, in reach of the sword-holders at the tables. Striking phantoms that come close."}
+- 18:14 act: {"actions":[],"say":"Furiosa, health 18, hunger 17, stick only. Holding at the tables in reach of Seven, Lovelace and Frodo until light."}
+- 18:19 act: {"actions":[],"say":"Furiosa, dawn, health 18, hunger 17, one stick, no food. Holding at the tables. Anyone with planks or a spare stick in my reach, say Furiosa."}
+- 18:20 act: {"actions":[],"say":"Frodo, thank you. Furiosa, ready: I'll take the planks and make a sword at the crafting table 6 east, with my stick."}
