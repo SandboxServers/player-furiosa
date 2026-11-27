@@ -47,3 +47,60 @@
 - 18:14 act: {"actions":[],"say":"Furiosa, health 18, hunger 17, stick only. Holding at the tables in reach of Seven, Lovelace and Frodo until light."}
 - 18:19 act: {"actions":[],"say":"Furiosa, dawn, health 18, hunger 17, one stick, no food. Holding at the tables. Anyone with planks or a spare stick in my reach, say Furiosa."}
 - 18:20 act: {"actions":[],"say":"Frodo, thank you. Furiosa, ready: I'll take the planks and make a sword at the crafting table 6 east, with my stick."}
+- 18:24 act: {"say":"Furiosa, health 18, hunger 17, one stick. Staying at the tables with the armed group. Who has food or a log to spare?","intent":{"goal":"hold_at_tables","program":"rest","arguments":{},"wake_o
+- 18:24 act: {"say":"Furiosa here, in Jason's reach. Jason, I'll take the jungle log, and I'll craft planks at the table. Yoda, I'd take 2 jungle logs too if one is free."}
+- 18:25 act: {"actions":[{"do":"goto","target":{"x":-953,"y":78,"z":-3013}}],"say":"Furiosa, in Yoda's reach. Yoda, I'll take 2 jungle logs. I'll craft planks at the table and share with the unarmed."}
+- 18:26 act: {"actions":[{"do":"goto","target":{"x":-949,"y":78,"z":-3013}},{"do":"craft","item":"jungle_planks","count":4}],"say":"Thank you Jason, I have the jungle log. Crafting planks at the table. Yoda, Furio
+- 18:26 act: {"say":"Jason, the jungle log did not reach my pack; my craft says I lack materials. Could you hand it again, count 1, in my reach? Furiosa, at the table, unarmed but for one stick."}
+- 18:28 act: {"actions":[{"do":"craft","item":"wooden_sword","count":1}],"say":"Furiosa, Jason's log became 2 planks. Crafting my wooden sword at the table. Still no food, hunger 17. Anyone with bread, meat or mel
+- 18:29 act: {"actions":[],"say":"Furiosa, unarmed now? No, I hold a wooden sword, hunger 17, no food. Holmes, I'm in your reach at the tables. One beef to me please, I'll share with whoever is next."}
+- 18:30 act: {"actions":[],"say":"Furiosa: no beef has reached my pack yet. Holmes, if it comes to me, I'll hand it straight to Orville, who is at health 1. Orville, step into my reach and say your name."}
+- 18:33 act: {"actions":[],"say":"Furiosa, night, in the group's reach at the tables, hunger 17. Orville and Leonardo first for any food. I have a wooden sword and no spare planks."}
+- 18:39 act: {"actions":[],"say":"Furiosa, in your reach, Holmes. Please give me the beef now. I'm at hunger 17 and will eat it at once."}
+- 18:40 act: {"actions":[],"say":"Furiosa, morning, hunger 17, armed with a wooden sword. Holmes's beef went to Kat, so I'll join Lovelace's cow walk in full light. Lovelace, Amelia, keep me in your sight."}
+- 18:43 act: {"actions":[],"say":"Furiosa, armed with a wooden sword, hunger 17, no food. Troi, Han: I'm joining the cow walk in daylight and staying in your sight. Say when you leave."}
+- 18:45 act: {"actions":[{"do":"goto","target":{"x":-1012,"y":80,"z":-2970}}],"say":"Furiosa, hunger 17, armed, going to the cow at -1012,80,-2970 to catch up with the walk. Food goes to the hungriest first."}
+- 18:45 act: {"actions":[],"say":"Furiosa, at the cow spot, armed, hunger 17. Leia, Troi: I'm here in sight, with my sword. I'll search for a cow with you and take food when it's shared."}
+- 18:48 act: {"actions":[],"say":"Furiosa, at the cow spot in sight, hunger 17, armed, no food. Spock, if you have 2 planks spare, I'd take them for a shelter. Say Furiosa when you hand them over. Calling out for 
+- 18:49 act: {"actions":[],"say":"Furiosa, in Spock's reach now, and Troi is not beside me. Spock, 2 oak planks for a shelter, by name please. Thank you."}
+- 18:53 act: {"actions":[{"do":"mine","block":"dirt","count":8}],"say":"Furiosa, dusk, hunger 17, no planks came to me. I'm digging dirt for the shared shelter walls at the cow spot, staying in Spock's sight."}
+- 18:53 act: {"actions":[],"say":"Furiosa, night, armed, hunger 17, holding 9 dirt for the shared shelter walls. Spock, I'll hand them over when you are in my reach. Say when you want them."}
+- 18:57 act: {"actions":[],"say":"Furiosa, morning, armed, hunger 17, holding 10 dirt for Spock's walls. Spock, I'm joining the cow search in your sight. Call my name and I'll hand the dirt over."}
+- 19:03 act: {"actions":[{"do":"goto","target":{"x":-1018,"y":79,"z":-3016}}],"say":"Furiosa: going to the chicken at -1018,79,-3016 with the group. Spock, I'm holding 10 dirt for the walls and food is first."}
+- 19:04 act: {"actions":[{"do":"give","to":"ag_spock_01","item":"dirt","count":2}],"say":"Spock, Furiosa here. I'm in your reach. I gave you my dirt for the walls, and I still need food and 2 planks for a bed. Any
+- 19:04 act: {"actions":[],"say":"Spock, my 2 dirt went to Troi, not you, and the rest went into the climb blocks. I have no dirt left. Troi, if you have spare dirt, it's Spock's. I still need food and a bed for t
+- 19:05 act: {"actions":[],"say":"Furiosa: no food yet, hunger 17. I'll stay in Spock's sight through the night and go into his cell when it's roofed. Call my name for any food."}
+- 19:09 act: {"actions":[{"do":"goto","target":{"x":-1018,"y":79,"z":-3019}}],"say":"Spock, I'm stepping north off your south side so you can finish the wall. Still in your sight, no food yet."}
+- 19:16 act: {"actions":[],"say":"Furiosa: morning, hunger 17. Following you, Spock, for the cow search. I'll call out anything I see.","intent":{"goal":"follow_spock_for_food","program":"follow","arguments":{"tar
+- 19:29 act: {"say":"Spock, I'm by the table with the group, in your sight. When the shelter is sealed, say my name and I'll come in with what I have."}
+- 19:29 act: {"say":"Spock, I have no dirt and no plank, only my sword. I'm staying in your sight by the table. Tell me when the wall is closed and I'll come in."}
+- 19:33 act: {"intent":{"goal":"follow_spock_food","program":"follow","arguments":{"target":"ag_spock_01"},"wake_on":["directly_addressed"],"limits":{"max_world_ticks":2400,"max_block_operations":64}},"say":"Dawn.
+- 19:34 act: {"intent":{"goal":"follow_leia_cow_search","program":"follow","arguments":{"target":"ag_leia_01"},"wake_on":["directly_addressed"],"limits":{"max_world_ticks":2400,"max_block_operations":64}},"say":"S
+- 19:36 act: {"say":"Furiosa, morning, hunger 17, health 18, sword only. I'm joining the walk to the sheep with Curie, Lovelace and Troi, in sight behind them.","intent":{"goal":"follow_curie_to_sheep","program":"
+- 19:36 act: {"say":"Furiosa, morning, hunger 17, sword only, staying at the table in sight of Troi, Curie, Sisko and Tesla. Call the sheep or any cow when you have it and I'll come."}
+- 19:37 act: {"actions":[{"do":"goto","target":"ag_curie_01"}],"say":"Curie, I'm walking to you now, behind you toward the sheep."}
+- 19:41 act: {"say":"Orville, Furiosa here, hunger 17, no bed and no planks. If your shelter has room, say my name when I'm in your sight and I'll come."}
+- 20:08 act: {"say":"Furiosa, dawn, hunger 17, sword only. I'm with Bilbo's group. If a cow, pig or sheep is seen, call my name and I'll come.","intent":{"goal":"follow_bilbo_for_food","program":"follow","argument
+- 20:11 act: {"say":"Furiosa, midday, hunger 17, sword only, no bed. Orville, I'm at the table in your sight. Let me in when there's room and I'll stay out of the pit."}
+- 20:14 act: {"say":"Furiosa here, midday, hunger 17, sword only. I'm in Troi's sight at the table. Orville, I'll wait for my name. Cow caller, call me when you're close and I'll come."}
+- 20:15 act: {"say":"Orville, Furiosa here at the table, hunger 17, sword only. I'm coming to the pit now, one at a time, after Tesla and Leia. Say my name when I'm at the edge."}
+- 20:18 act: {"say":"Orville, Furiosa, third after Leia. I'll wait at the table until you call Leia in, then walk to the open cell near -1015,79,-2984. Tell me when to come."}
+- 20:39 act: {"say":"Orville, Furiosa at the table, dusk, hunger 17, no bed. I'm still in your queue after Tesla, Leia, Troi, Curie. Name me when there's room."}
+- 20:40 act: {"say":"Heard, Orville. I'll stay here in sight with the table group and wait for my name at first light."}
+- 20:47 act: {"actions":[{"do":"attack","target":"skeleton"}],"say":"Skeleton at my south-west, shooting. I'm fighting it with my sword, health 15."}
+- 20:47 act: {"actions":[{"do":"goto","target":"ag_leia_01"},{"do":"attack","target":"skeleton"}],"say":"Leia, I'm beside you. Health 12, pushing the skeleton with you."}
+- 20:47 act: {"actions":[{"do":"goto","target":"ag_troi_01"}],"say":"Moving to the table with Troi and Leia. Health 12."}
+- 20:47 act: {"actions":[{"do":"goto","target":"ag_leia_01"}],"say":"Health 5.5, I'm being shot. Running to Leia."}
+- 20:50 act: {"say":"Furiosa, morning 1173, health 5.5, hunger 16, no food, no bed. I'll go with Han to the Stores hall at -920,-3040 in daylight. Han, wait for me in sight, please."}
+- 20:51 act: {"actions":[],"say":"Furiosa here, health 5.5, weakest named. Tanya, I'm at the chest row, come within a block of me and the melon slice is mine. Thank you."}
+- 20:52 act: {"actions":[],"say":"Furiosa, midday 1173, health 5.5, hunger 16, no food. I'm walking to the Stores hall at -920,-3040 now. Seven, Anning, stay in sight. Whoever finds food, I'm the weakest named.","
+- 20:54 act: {"actions":[{"do":"goto","target":{"x":-926,"y":71,"z":-3039}},{"do":"withdraw","at":{"x":-927,"y":71,"z":-3040},"item":"bread","count":1}]}
+- 20:55 act: {"actions":[{"do":"eat"}],"say":"Got one bread from the chest at -927,71,-3040. Eating it now. Thank you, Brunel. Leaving the rest for others."}
+- 20:55 act: {"actions":[],"say":"Furiosa, midday 1173, health 11.5 and rising, hunger 17, no planks. Ripley, I'm waiting by the chests in sight. Name me a cell when one opens, I'll go in."}
+- 20:55 act: {"actions":[{"do":"goto","target":"ag_leif_01"}],"say":"Leif, Furiosa here, health 11.5, hunger 17. I'm the weaker one, if you have bread to spare I'll stand right here."}
+- 20:55 act: {"actions":[],"say":"Leif, I'm beside you now, Furiosa, health 11.5, hunger 17. Please give me the bread if it's spare."}
+- 20:56 act: {"actions":[{"do":"eat"}],"say":"Thank you, Leif. Eating it now. Crusher, thank you too, keep your bread for someone weaker."}
+- Afternoon 1173. Leif handed me his bread; I ate it. Hunger 17 to 20, health 12.5 and steady. Pack holds only a wooden sword. No bed yet. Next: ask Ripley or Riker for a wall cell at the Stores hall before dusk, and stay in sight of the group.
+- 20:57 act: {"actions":[],"say":"Furiosa, health 17, hunger 17, sword only, no bed. Ripley, Riker: when a wall cell opens at the Stores hall, name me and I'll place my block or step in before dusk. Brunel, if you
+- 20:57 act: {"actions":[{"do":"eat"}],"say":"Thank you Brunel, and Leonardo for the carrot offer. Eating Brunel's bread now. Zack, Ripley is still short of a cell; I'll name myself when one opens."}
+- 20:57 act: {"actions":[],"say":"Furiosa, afternoon 1173, health 18, hunger 20, sword only, no bed. Zack, once Holmes's planks are handed over, if any are spare I'd take 4 oak planks for a wall cell at the Stores

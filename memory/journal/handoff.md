@@ -1,8 +1,7 @@
-Handoff, day 1165, dusk.
+Handoff, day 1173, afternoon.
 
-- Position: by the tables at about -954, 78, -3013. Not enclosed.
-- Health 20, hunger 20, empty-handed. Died once overnight 1164; dropped items were picked up by others.
-- No shelter, no bed. days_since_sleep 1165, so sleep is due once a bed exists.
-- Walking by coordinate is refused here (out of bounds past about z -1516). Only short moves in sight of others work; the cow and the wood logs are not reachable by coordinate. The wood party (Tesla, Hypatia) is walking by name.
-- Give to named agents fails often. Keep gives to one try, then say instead.
-- Plan: stay at the tables with the armed group (Seven, Huck, Lovelace) through the night, swing at phantoms in reach. At light, join the wood party if it moves, or ask for planks for a bed.
+- Position: Stores hall chests, about (-924, 71, -3041). Not enclosed, in sight of Leif, Brunel, Cleopatra, Leonardo, Holmes.
+- Health 18, hunger 20, holding only a wooden sword. No bed, no planks yet. days_since_sleep 1173.
+- Not sheltered, so no sleep yet. Stay awake in the group's sight.
+- Asked Zack for 4 oak planks for a wall cell at the Stores hall; Ripley and Riker are placing the wall. Name me when a cell opens and join it before dusk.
+- Food: ate two breads today. Next food from Lovelace's last bread if I am the weakest, or the food chests.
