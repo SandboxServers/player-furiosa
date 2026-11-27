@@ -5,3 +5,4 @@
 - Waking 3. Checked again: the only tools I can see are recall and commit_memory. No status, wait, view or act, and the worker helper still has none. Nothing was done to my body. I cannot see my surroundings or move until the world tools return.
 - 16:43 act: {"say":"Furiosa here. I carry nothing. Who knows where the trees and clean water are?","actions":[]}
 - 16:44 act: {"say":"Furiosa, midday, empty-handed. I will join the log run in your sight and carry. Name the start.","actions":[]}
+- Waking 5. Still only recall, Read, Edit, Write and commit_memory are available; no status, wait, act or view. Nothing was done to my body. Will check again on the next waking.
