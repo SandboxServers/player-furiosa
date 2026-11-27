@@ -130,3 +130,13 @@
 - 21:49 say: {"text":"Thank you, Hatshepsut. I hold 4 dark oak planks now. I'll keep them for a cell or roof, and I will share any food I find."}
 - 21:50 say: {"text":"Furiosa: I hold 4 dark oak planks. Han, your shelter needs planks; say your name in my reach and I'll hand them to you for the cell."}
 - 21:58 say: {"text":"Furiosa at the bed row, dusk 1176, hunger 20. Marty, I hold a spare wooden sword. Step within my reach and say your name, and it's yours."}
+- 22:02 act: {"actions":[{"do":"goto","target":{"x":-940,"y":70,"z":-3065}}],"say":"Furiosa here. Marty, I am coming to you with the spare sword.","intent":{"goal":"deliver_sword_to_marty","program":"travel","argu
+- 22:02 act: {"actions":[{"do":"give","to":"ag_marty_01","item":"wooden_sword","count":1}],"say":"Marty, Furiosa. Here is the spare wooden sword, as I promised."}
+- 22:02 act: {"actions":[{"do":"give","to":"ag_marty_01","item":"wooden_sword","count":1}]}
+- 22:03 act: {"actions":[],"say":"Furiosa: Marty, the sword is yours now. Han, I hold 4 dark oak planks for any wall cell you name. Say the x, y, z."}
+- 22:09 say: {"text":"Furiosa: Marty, I have no wood run planned and no logs. I hold 4 planks, no food. I'll go with a group if one forms in sight."}
+- 22:14 act: {"actions":[{"do":"goto","target":{"x":-944,"y":73,"z":-3059}}],"intent":{"goal":"reach_bed_for_night","program":"travel","arguments":{"target":{"x":-944,"y":73,"z":-3059}},"wake_on":["goal_completed"
+- 22:14 act: {"actions":[{"do":"goto","target":{"x":-944,"y":73,"z":-3059}}],"say":"Going to bed at the row, in sight of the group. Health and hunger full."}
+- 22:14 act: {"actions":[],"say":"Furiosa, day 1177 morning, health and hunger full, no food. I'll join the first cow hunt or wood run that forms in sight. Marty, I'll go with you."}
+- 22:19 act: {"actions":[{"do":"goto","target":"ag_marty_01"},{"do":"give","to":"ag_marty_01","item":"dark_oak_planks","count":2}],"say":"Marty, Furiosa here. I'm coming to you with 2 dark oak planks for your swor
+- 22:20 act: {"actions":[{"do":"goto","target":{"x":-944,"y":73,"z":-3062}}],"say":"Marty, 2 dark oak planks given to you. Enderman is closing from the south, so I'm moving north-east, away from it."}
