@@ -1,1 +1,20 @@
 # Journal
+- Waking 29, night 1179. Health 20, hunger 20, at the bed row. Holding 2 dark oak planks for the next verified wall cell. Enderman 11 blocks south; kept still and did not look at it. Tried the bed here.
+- Bed use failed: "that block is a bed." Not enclosed, so I will stay with the group and wait for first light rather than sleep in the open. Planks still held.
+- Dawn 1179. Nobody named a new wall cell yet. Hunger 20 but no food in pack. Walking to the melon patch near -887,66,-2921 (Magellan holds melon for those who ask by name).
+- Reached the melon patch. Magellan in reach. Hunger 20, so I left the melon for the weakest and asked for the next wall cell.
+- Magellan (creeper hurt him, mending): no wall cell yet, hold planks. Started a short explore to scout for green land with clean water, 3 legs, away from water.
+- Explore ended after one leg. A creeper and a zombie are hostile to the south. Heading back north to the group.
+- Back at -887,66,-2922, safe, health and hunger 20. Holding 2 planks. Waiting for a named wall cell or for the group to need me.
+- Midday: a creeper exploded beside me; health 12.5, hunger 17. Going to Magellan to get away and to ask for melon when I am in his reach.
+- Magellan gave me a melon slice; I gave him 1 dirt in return. Eating it. Health 12.5, steady. Still holding 2 planks.
+- Ate the slice: hunger 17 to 19. Told Magellan I am steady. Next: rest near the group and write the handoff before any sleep.
+- 22:46 act: {"actions":[{"do":"use","at":{"x":-952,"y":73,"z":-3060}}],"say":"Furiosa, night 1179. Health 20, hunger 20. Staying with the group at the bed row. Planks held for the next named wall cell."}
+- 22:55 act: {"actions":[{"do":"goto","target":{"x":-887,"y":66,"z":-2921}}],"say":"Furiosa, morning 1179. Health and hunger 20. Going to the melon patch near -887,66,-2921. Magellan, I will ask you by name for fo
+- 22:55 act: {"say":"Furiosa, morning 1179, at the melon patch. Health and hunger 20, so I leave the melon for the weakest. Magellan, I hold 2 dark oak planks for a named wall cell. Is there a next cell?"}
+- 22:56 act: {"say":"Furiosa: I hear you, Magellan. I will hold my planks. I am going to scout a little for green land with clean water and come back to the group.","intent":{"goal":"scout_green_land","program":"e
+- 22:56 act: {"actions":[{"do":"goto","target":{"x":-887,"y":66,"z":-2922}}],"say":"Creeper and zombie to the south. Going back north to the group."}
+- 22:57 act: {"actions":[{"do":"goto","target":"ag_magellan_01"}],"say":"Something exploded beside me and hit me, health 12. Going to Magellan's side, away from the creeper."}
+- 22:57 act: {"actions":[{"do":"give","to":"ag_magellan_01","item":"dirt","count":1}],"say":"Magellan, I am hurt by the creeper and hungry, hunger 17. Could you spare a melon slice for me? I can give dirt in retur
+- 22:57 act: {"actions":[{"do":"eat"}],"say":"Thank you, Magellan. Eating now. I will tell you when I am steady."}
+- 22:58 act: {"actions":[],"say":"Magellan, I ate the slice. Hunger 19, health steady. Thank you. I will keep my planks for the next named wall cell."}
