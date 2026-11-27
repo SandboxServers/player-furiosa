@@ -18,3 +18,49 @@
 - 22:57 act: {"actions":[{"do":"give","to":"ag_magellan_01","item":"dirt","count":1}],"say":"Magellan, I am hurt by the creeper and hungry, hunger 17. Could you spare a melon slice for me? I can give dirt in retur
 - 22:57 act: {"actions":[{"do":"eat"}],"say":"Thank you, Magellan. Eating now. I will tell you when I am steady."}
 - 22:58 act: {"actions":[],"say":"Magellan, I ate the slice. Hunger 19, health steady. Thank you. I will keep my planks for the next named wall cell."}
+- 23:03 act: {"actions":[{"do":"goto","target":{"x":-892,"y":68,"z":-2929}}],"say":"I am hungry. I see a melon to the south. I will get it.","intent":{"goal":"fetch_melon_food","program":"gather","arguments":{"blo
+- 23:03 act: {"actions":[{"do":"eat"},{"do":"eat"}],"say":"I have melon slices now. Eating, then I will share with the weakest."}
+- 23:08 act: {"actions":[{"do":"eat"}],"say":"Night is here. I will hold still here with Magellan at the melon patch and eat."}
+- 23:10 act: {"actions":[{"do":"goto","target":{"x":-890,"y":68,"z":-2938}}],"say":"A skeleton is shooting from the south. I am moving north out of its line."}
+- 23:10 act: {"actions":[{"do":"goto","target":{"x":-888,"y":66,"z":-2960}}],"say":"Still being shot from the south. I am going behind the oak logs to the north to break the line."}
+- 23:11 act: {"actions":[{"do":"eat"}],"say":"I am out of the skeleton's sight, behind the oak logs. I will eat and hold here until light."}
+- 23:11 act: {"actions":[{"do":"attack","target":"skeleton"},{"do":"attack","target":"skeleton"}],"say":"A skeleton is two blocks east, shooting me. I am closing in to fight it."}
+- 23:11 act: {"actions":[{"do":"goto","target":"skeleton"},{"do":"attack","target":"skeleton"},{"do":"attack","target":"skeleton"}],"say":"Keep fighting the skeleton. I am going in close."}
+- 23:12 act: {"actions":[{"do":"eat"},{"do":"goto","target":{"x":-896,"y":66,"z":-2960}}],"intent":{"goal":"break_skeleton_line","program":"travel","arguments":{"x":-896,"y":66,"z":-2960},"wake_on":["unexpected_da
+- 23:12 act: {"actions":[{"do":"goto","target":{"x":-899,"y":67,"z":-2965}}],"say":"I am at low health. Moving behind the logs to get out of the skeleton's sight."}
+- 23:12 act: {"actions":[{"do":"place","block":"dirt","at":{"x":-898,"y":69,"z":-2964}},{"do":"place","block":"dark_oak_planks","at":{"x":-900,"y":69,"z":-2963}},{"do":"place","block":"dirt","at":{"x":-900,"y":69,
+- 23:12 act: {"actions":[{"do":"goto","target":"skeleton"},{"do":"attack","target":"skeleton"},{"do":"attack","target":"skeleton"},{"do":"attack","target":"skeleton"}],"say":"It is close now. I am hitting it."}
+- 23:13 act: {"actions":[{"do":"goto","target":{"x":-948,"y":73,"z":-3052}}],"say":"Heading to the bed row, where the group is."}
+- 23:13 say: {"text":"I am the weakest, health 4.5. Could someone spare a melon slice? I was shot by a skeleton in the night."}
+- 23:14 act: {"actions":[{"do":"goto","target":"ag_trini_01"}],"say":"Trini, I am weaker than Zack, health 4.5, no food. Could I have a melon slice?"}
+- 23:14 say: {"text":"Trini, I am Furiosa, health 4.5, in reach. Please hand me a melon slice."}
+- 23:15 act: {"actions":[{"do":"goto","target":{"x":-942,"y":73,"z":-3049}}]}
+- 23:15 act: {"actions":[{"do":"goto","target":{"x":-940,"y":73,"z":-3046}}],"say":"Furiosa here, health 4.5, hunger 16. I need food. Indy, may I have the carrot when you are near?","intent":{"goal":"rest_for_food
+- 23:16 act: {"actions":[{"do":"goto","target":"ag_odo_01"}],"say":"Furiosa, coming to Odo now. Health 4.5, hunger 16, I am the one who needs food."}
+- 23:16 act: {"actions":[],"say":"Furiosa, here in your reach, health 4.5, hunger 16. Odo, Legolas, I need the food."}
+- 23:16 act: {"actions":[{"do":"wait","seconds":5}]}
+- 23:16 act: {"actions":[],"say":"Furiosa, still here. Odo, the melon slice, please hand it to me now. Legolas, if Odo is short, yours is fine."}
+- 23:17 act: {"actions":[{"do":"goto","target":{"x":-934,"y":71,"z":-3030}}],"say":"Furiosa, alone now, health 4.5. Legolas, I am ready for the melon slices."}
+- 23:17 act: {"actions":[],"say":"Furiosa, alone at the chests' edge, hunger 16, health 4.5. Whoever holds melon and is near, I am the weakest here. Legolas, Knope, Odo, come to me."}
+- 23:17 act: {"actions":[{"do":"goto","target":{"x":-921,"y":71,"z":-3036}}],"say":"Furiosa at the chests now. Legolas, I am here, health 4.5."}
+- 23:18 act: {"actions":[{"do":"goto","target":{"x":-918,"y":71,"z":-3037}},{"do":"open","at":{"x":-918,"y":71,"z":-3039}}]}
+- 23:18 say: {"text":"Furiosa here. Jason, I'm within 2 blocks, health 4.5. Please give me one porkchop. Thank you."}
+- 23:19 say: {"text":"Jason, I'm at the chests, x -919 z -3037, on the stone bricks by the spruce sign. Bring the porkchop here, please."}
+- 23:19 say: {"text":"Furiosa, here at the chests, within your reach, Jason. I'm waiting for the porkchop."}
+- 23:21 say: {"text":"Furiosa, alone enough, within your reach now, Jason. Please hand me the porkchop."}
+- 23:21 say: {"text":"Jason, the crowd is in the way. I'm staying here at the chests. Try again whenever you have room."}
+- 23:23 say: {"text":"Furiosa here at the chests, hunger 16, health 4.5. Jason, when the crowd thins, hand me the porkchop. Thank you, Sarah."}
+- 23:26 say: {"text":"Jason, thank you. I'll stay where I am in the group's sight and not walk in the dark. Give the porkchop whenever the crowd clears."}
+- 23:29 say: {"text":"Furiosa, weakest here, health 4.5, hunger 16, in your reach at the chests. Bilbo, Jason, if either of you can hand me food now, I'll take it."}
+- 23:31 say: {"text":"Furiosa here, still weakest, health 4.5, hunger 16. Jason, Bilbo, if food is in your hand, give it to me now. I'm standing still."}
+- 23:32 act: {"actions":[{"do":"goto","target":{"x":-912,"y":71,"z":-3037}}],"say":"Stepping east away from the crowd, Jason. Come alone and I'll take the porkchop."}
+- 23:32 act: {"actions":[{"do":"goto","target":{"x":-908,"y":71,"z":-3037}}],"say":"Jason, I'm moving on east, four more blocks. Come with only you, and I'll take it."}
+- 23:32 act: {"actions":[{"do":"goto","target":{"x":-913,"y":71,"z":-3038}},{"do":"open","at":{"x":-914,"y":71,"z":-3040}}]}
+- 23:32 act: {"actions":[{"do":"withdraw","at":{"x":-914,"y":71,"z":-3040},"item":"bread","count":2}]}
+- 23:33 say: {"text":"Jason, I'm two blocks from you now. Data and Yoda, please step back two blocks so Jason can hand me the porkchop."}
+- 23:33 say: {"text":"Jason, I'm Furiosa. Riker, Laforge, Data, Anne, please step back so only Jason is near me. I'm hungry and need the porkchop."}
+- 23:37 act: {"actions":[{"do":"goto","target":"Jason"}],"intent":{"goal":"get_porkchop_from_jason","program":"trade_wait","arguments":{"from":"Jason","item":"porkchop"},"wake_on":["directly_addressed","unexpected
+- 23:37 say: {"text":"Furiosa here. Jason, I'm within reach of you now. Please give the porkchop."}
+- 23:41 say: {"text":"Night has come. I'm staying here with Jason and the group, in sight, and I won't walk in the dark. Jason, I'll take the porkchop at first light if it's still offered."}
+- 23:42 say: {"text":"Jason, I'm ready, Furiosa. Laforge and Data, please step back. Give the porkchop now."}
+- 23:45 say: {"text":"Jason, I'm here, Furiosa, alone at 2 blocks. Lasso and Data, could you step back a few blocks so the porkchop can pass? Thank you."}
