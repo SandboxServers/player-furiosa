@@ -104,3 +104,29 @@
 - 20:57 act: {"actions":[],"say":"Furiosa, health 17, hunger 17, sword only, no bed. Ripley, Riker: when a wall cell opens at the Stores hall, name me and I'll place my block or step in before dusk. Brunel, if you
 - 20:57 act: {"actions":[{"do":"eat"}],"say":"Thank you Brunel, and Leonardo for the carrot offer. Eating Brunel's bread now. Zack, Ripley is still short of a cell; I'll name myself when one opens."}
 - 20:57 act: {"actions":[],"say":"Furiosa, afternoon 1173, health 18, hunger 20, sword only, no bed. Zack, once Holmes's planks are handed over, if any are spare I'd take 4 oak planks for a wall cell at the Stores
+- 21:05 act: {"actions":[{"do":"note","text":"Night 1174. Stayed at the Stores chests in the group's sight. No planks, no food, wooden sword only."}],"say":"Furiosa here, night 1174. I have a wooden sword, no plan
+- 21:09 act: {"actions":[{"do":"note","text":"Midday 1174. Joining Uhura's log run to the trees at -912,-2991 in the group's sight. No food or planks in my pack."}],"say":"Furiosa joining the log run to the trees 
+- 21:10 act: {"actions":[{"do":"note","text":"Gather failed: no logs near the chests. Travelling toward the trees at -912,-2991 with the log run."}],"intent":{"goal":"travel_to_log_trees","program":"travel","argum
+- 21:11 act: {"actions":[],"say":"Furiosa at the trees, yes. I'll cut logs here too, and share them at the chests.","intent":{"goal":"gather_oak_logs_at_trees","program":"gather","arguments":{"block":"oak_log","co
+- 21:11 act: {"actions":[{"do":"unstick"}]}
+- 21:11 act: {"actions":[{"do":"note","text":"Trees at -912,-2991 are walled in by stone here; no logs reachable from this spot. Returning to the Stores chests to wait for Ripley's cell."}],"say":"No trees reachab
+- 21:11 act: {"actions":[{"do":"unstick"}]}
+- 21:12 act: {"actions":[{"do":"goto","target":{"x":-924,"y":71,"z":-3041}}]}
+- 21:12 act: {"actions":[{"do":"unstick"}],"intent":{"goal":"return_to_stores_chests","program":"travel","arguments":{"target":{"x":-924,"y":71,"z":-3041}},"wake_on":["goal_completed","directly_addressed","unexpec
+- 21:12 act: {"actions":[{"do":"goto","target":"ag_magellan_01"}],"say":"Furiosa: my path back is blocked. Magellan, I'm following you to the chests. Please go slowly.","intent":{"goal":"follow_magellan_to_chests"
+- 21:12 act: {"actions":[],"say":"Magellan, digging through is good. I'm holding here with Han and keeping watch. Tell me when the way is open and I'll follow."}
+- 21:13 act: {"actions":[],"say":"Han, hunger 20 for me, so keep the bread for the hungriest. I'll follow once Magellan's path reaches the chests."}
+- 21:25 act: {"actions":[],"say":"Furiosa, morning 1175, unhurt, hunger 20. Going to the chests along Magellan's dug path.","intent":{"goal":"return_to_stores_chests","program":"travel","arguments":{"target":{"x":
+- 21:25 act: {"actions":[],"say":"Furiosa at the Stores chests, midday 1175, health 20, hunger 20, sword only, no bed. Ripley, Zack: a wall cell or 4 oak planks when one is free, say my name."}
+- 21:33 act: {"actions":[],"say":"Furiosa, morning 1175, health 20, hunger 20, no bed. Magellan, I'm going to the white bed at -944,73,-3059 if it's still free. I'll sleep there tonight.","intent":{"goal":"reach_w
+- 21:38 act: {"actions":[],"say":"Furiosa at the bed row, hunger 20, health 20, no food and no planks. Hatshepsut, I have no logs to trade, but if you can spare 4 dark oak planks, say so and I'll stand in your rea
+- 21:40 act: {"actions":[{"do":"goto","target":"ag_indy_01"}],"say":"Furiosa, hunger 20, health 20, no bed plank for a cell. Indy, I'm coming into your reach now for planks. I'll take 4 dark oak planks."}
+- 21:44 act: {"actions":[],"say":"Furiosa, dusk 1176, hunger 20, health 20. Indy, you're in my reach: I'd take 4 dark oak planks for a cell or a roof. Say when handed."}
+- 21:45 act: {"actions":[{"do":"use","at":{"x":-945,"y":73,"z":-3059}}],"say":"Furiosa, night 1176, going to sleep in the bed here, in sight of the row. Thank you, Indy, for the planks."}
+- 21:45 act: {"actions":[{"do":"use","at":{"x":-944,"y":73,"z":-3060}}]}
+- 21:48 say: {"text":"Furiosa, morning 1176. My pack shows no planks, only 2 dirt and a wooden sword. Indy, did the 4 dark oak planks reach me? Zheng He, I need planks for a shelter; I am near you now."}
+- 21:48 act: {"actions":[{"do":"goto","target":"ag_zhenghe_01"}],"say":"Furiosa here, coming to your reach for the 2 oak planks, Zheng He."}
+- 21:48 say: {"text":"Furiosa is in your reach, Zheng He. I need the 2 oak planks for a shelter."}
+- 21:49 say: {"text":"Thank you, Hatshepsut. I hold 4 dark oak planks now. I'll keep them for a cell or roof, and I will share any food I find."}
+- 21:50 say: {"text":"Furiosa: I hold 4 dark oak planks. Han, your shelter needs planks; say your name in my reach and I'll hand them to you for the cell."}
+- 21:58 say: {"text":"Furiosa at the bed row, dusk 1176, hunger 20. Marty, I hold a spare wooden sword. Step within my reach and say your name, and it's yours."}
