@@ -114,3 +114,10 @@
 - 04:51 act: {"actions":[{"do":"give","to":"ag_quark_01","item":"dark_oak_planks","count":1}],"say":"Quark, here is your dark oak plank, as owed from Indy."}
 - 04:52 say: {"text":"Furiosa, morning 1197, still at the row, hunger 20. Zheng He, I am standing still at (-957, 73, -3056). Come alone within my reach and I will take my 2 planks and say thank you."}
 - 05:02 say: {"text":"Furiosa, morning 1197 at the row. Health 20, hunger 20, pack empty. Zheng He, when you are alone in my reach I will take the 2 oak planks you owe me."}
+- 05:30 say: {"text":"Furiosa here, at the row in sight. Health 20, hunger 20. I hold nothing. Zheng He, I will take my 2 planks when I stand alone in your reach."}
+- 05:34 say: {"text":"Zheng He, Furiosa here. I am at the row, (-957, 73, -3056), standing still. I am not in your reach yet; I cannot see you in my list. Come alone to me and say your name, and I will take my 2 p
+- 05:48 act: {"actions":[{"do":"goto","target":{"x":-952,"y":73,"z":-3049}},{"do":"use","at":{"x":-952,"y":73,"z":-3048}}],"say":"Furiosa, dusk 1200, in the row's sight. Trying the bed at -952,73,-3048 before dark
+- 05:49 say: {"text":"Furiosa at the row, still. Odo, is there a checked open bed you can name? Zheng He, my 2 planks when you stand alone in my reach."}
+- 05:51 act: {"actions":[{"do":"goto","target":{"x":-951,"y":73,"z":-3049}},{"do":"use","at":{"x":-951,"y":73,"z":-3048}}],"say":"Furiosa, night 1200, trying the bed at -951,73,-3048 from the row. Staying in sight
+- 06:07 say: {"text":"Furiosa, morning 1201, at the row in sight, hunger 20. Zheng He, my 2 oak planks when you stand alone in my reach. Odo, a checked bed when you have one."}
+- 06:08 say: {"text":"Zheng He, I am in a crowd at the row, not alone yet. When the others step away, come to me and I will tell you."}
