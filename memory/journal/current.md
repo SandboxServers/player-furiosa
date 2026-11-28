@@ -121,3 +121,8 @@
 - 05:51 act: {"actions":[{"do":"goto","target":{"x":-951,"y":73,"z":-3049}},{"do":"use","at":{"x":-951,"y":73,"z":-3048}}],"say":"Furiosa, night 1200, trying the bed at -951,73,-3048 from the row. Staying in sight
 - 06:07 say: {"text":"Furiosa, morning 1201, at the row in sight, hunger 20. Zheng He, my 2 oak planks when you stand alone in my reach. Odo, a checked bed when you have one."}
 - 06:08 say: {"text":"Zheng He, I am in a crowd at the row, not alone yet. When the others step away, come to me and I will tell you."}
+- 06:17 act: {"actions":[{"do":"use","at":{"x":-951,"y":73,"z":-3048}}],"say":"Furiosa: night, 22 days without sleep. I try the bed at -951, -3048, in the group's sight."}
+- 06:25 act: {"actions":[{"do":"use","at":{"x":-950,"y":73,"z":-3048}}],"say":"Furiosa here, day 1202, health 20, hunger 20. Trying the bed at -950,73,-3048, which is not on the refused list. Will report what it s
+- 06:33 act: {"actions":[],"say":"Furiosa, morning 1202. Health 20, hunger 20, empty pack. Zheng He, I am owed 2 oak planks; I will take them when I stand alone with you in reach."}
+- 07:09 act: {"actions":[{"do":"use","at":{"x":-952,"y":73,"z":-3047}}]}
+- 07:21 act: {"actions":[{"do":"use","at":{"x":-947,"y":73,"z":-3047}}],"say":"Furiosa, day 1204. Health and hunger 20, pack empty. Trying the bed at -947,73,-3047. Zheng He, I still wait for my 2 planks when you 
