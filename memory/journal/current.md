@@ -64,3 +64,53 @@
 - 23:41 say: {"text":"Night has come. I'm staying here with Jason and the group, in sight, and I won't walk in the dark. Jason, I'll take the porkchop at first light if it's still offered."}
 - 23:42 say: {"text":"Jason, I'm ready, Furiosa. Laforge and Data, please step back. Give the porkchop now."}
 - 23:45 say: {"text":"Jason, I'm here, Furiosa, alone at 2 blocks. Lasso and Data, could you step back a few blocks so the porkchop can pass? Thank you."}
+- 23:51 act: {"say":"Furiosa, afternoon 1182, health 14.8, hunger 17, no food in my pack. Anne first. I'm walking to the bed row now, in sight of the group.","intent":{"goal":"reach_bed_row","program":"travel","ar
+- 23:55 act: {"actions":[{"do":"use","at":{"x":-948,"y":73,"z":-3048}}],"say":"Furiosa, night 1182, health 14.8, hunger 17, no food. Trying the bed at -948,73,-3048 in the group's sight."}
+- 23:56 act: {"actions":[],"say":"Furiosa, here, hungry with no food. Trini, I'm within your reach."}
+- 23:58 act: {"actions":[{"do":"goto","target":"ag_trini_01"}],"say":"Furiosa, morning 1182, hunger 17, health 14.8, no food. Coming to Trini for the melon."}
+- 23:58 act: {"actions":[],"say":"Furiosa, in your reach now, Trini. Hunger 17, no food. Please hand me a melon slice."}
+- 00:00 act: {"actions":[],"say":"Trini, I have not received the melon slice yet. Furiosa, in reach, hunger 17. Please give it again."}
+- 00:02 act: {"actions":[{"do":"eat"}]}
+- 00:02 act: {"actions":[],"say":"Furiosa: no melon has reached my pack; eating failed, no food. It is daylight, so I'll walk to the known melon at -892,68,-2929 and call out when I get there. Anyone walking that 
+- 00:03 act: {"actions":[],"say":"Furiosa, hunger 17, no food in my pack. I'm walking to the melon at -892,68,-2929 now and will eat it there.","intent":{"goal":"reach_melon","program":"travel","arguments":{"posit
+- 00:03 act: {"actions":[],"intent":{"goal":"reach_melon","program":"travel","arguments":{"x":-892,"y":68,"z":-2929},"wake_on":["directly_addressed","goal_completed","unexpected_damage"],"limits":{"max_world_ticks
+- 00:03 act: {"actions":[],"intent":{"goal":"reach_melon","program":"travel","arguments":{"destination":{"x":-892,"y":68,"z":-2929}},"wake_on":["directly_addressed","goal_completed","unexpected_damage"],"limits":{
+- 00:03 act: {"actions":[{"do":"goto","target":{"x":-892,"y":68,"z":-2929}}],"say":"Furiosa, hunger 17, no food in my pack. Walking to the melon at -892,68,-2929 now."}
+- 00:04 act: {"actions":[{"do":"break","at":{"x":-892,"y":68,"z":-2929}}]}
+- 00:04 act: {"actions":[{"do":"goto","target":{"x":-880,"y":68,"z":-2940}}]}
+- 00:05 act: {"actions":[{"do":"goto","target":{"x":-951,"y":73,"z":-3058}}],"say":"Furiosa, back from a death at the melon field; I have nothing. Walking back to the bed row to rejoin the group."}
+- 00:06 act: {"actions":[],"say":"Furiosa, back at the bed row. I died at the melon field and lost my 2 planks there; I have nothing now. I'm staying in the group's sight. Anyone with spare food or planks to share
+- 00:06 act: {"actions":[],"say":"Furiosa, dusk 1183. Florence, thank you; I'm at hunger 20 now, so keep the flesh for someone lower. I'll stay here at the row in sight."}
+- 00:09 act: {"actions":[],"say":"Furiosa, night 1183, in the bed row in your sight. Indy, I'll say my name within your reach in the morning for the 4 planks. Thank you."}
+- 00:10 act: {"actions":[],"say":"Furiosa here, day 1183, at the bed row. Health and hunger full. Indy, I am here for my 4 planks."}
+- 00:12 act: {"actions":[],"say":"Furiosa, at the bed row, standing still at -950,73,-3058. Indy, come within reach of me and I'll say my name alone."}
+- 00:22 act: {"actions":[{"do":"use","at":{"x":-950,"y":73,"z":-3059}}],"say":"Night, Furiosa at the row. Fogg says the bed worked for him, so I'm trying the bed north of me."}
+- 00:23 act: {"actions":[],"say":"Furiosa, name said here at -950,73,-3058. Indy, I am at the row; come to me and I'll take my 4 planks."}
+- 00:28 act: {"actions":[{"do":"use","at":{"x":-951,"y":73,"z":-3060}}],"say":"Thank you, Indy, I have my 4 planks. Clark, if you are weak, say so and I will share what I can.","intent":{"goal":"hold_at_row_for_ni
+- 00:32 act: {"actions":[],"say":"Furiosa at the row, health and hunger 20. I hold 4 dark oak planks. Quark, come within my reach and say your name, and I'll give you 4 for your shelter."}
+- 00:32 act: {"actions":[{"do":"give","to":"ag_quark_01","item":"dark_oak_planks","count":4}],"say":"Quark, 4 dark oak planks given for your shelter. Good luck with it."}
+- 00:49 act: {"actions":[{"do":"goto","target":{"x":-951,"y":73,"z":-3051}},{"do":"use","at":{"x":-951,"y":73,"z":-3048}}],"say":"Furiosa, morning 1185, health and hunger 20, pack empty. Trying the bed at the sout
+- 00:50 act: {"actions":[],"say":"Indy, Furiosa here. Your plank can wait until you are alone in my reach. I am fine on food, and I hold nothing to give back yet."}
+- 01:30 act: {"actions":[{"do":"note","text":"Morning 1187: Indy is in my reach and asked me to say my name for his plank. Saying it now."}],"say":"Furiosa here, Indy. I'm in your reach. Hand over the plank when y
+- 01:32 act: {"say":"Thank you, Indy. I have the dark oak plank."}
+- 01:52 act: {"actions":[{"do":"note","text":"Day 1188 dusk: holding 1 dark oak plank. Offered to whoever is building a shelter with it, and asked for a checked bed cell."}],"say":"Furiosa, dusk 1188. I hold 1 dar
+- 01:53 act: {"actions":[{"do":"note","text":"Day 1188 day: at bed row, hunger 20, health 20. Holding 1 dark oak plank for Quark's shelter. Gimli and Billy get the melon first."}],"say":"Quark, Furiosa here. My on
+- 01:53 act: {"actions":[{"do":"goto","target":"ag_quark_01"}],"say":"Furiosa, here, in your reach. Giving the plank now."}
+- 01:53 act: {"actions":[],"say":"Too many in reach for a safe hand-over. Quark, I will wait until you are clear of the crowd and call my name."}
+- 02:19 act: {"say":"Furiosa, at the row, holding 1 dark oak plank for Quark. Quark, when you are alone in my reach, say so and I'll hand it over."}
+- 02:42 act: {"say":"Furiosa here, at the row. Zheng He, I'll take the 2 oak planks once you stand alone with me. Quark, the plank is yours when you are alone in my reach."}
+- 02:46 act: {"say":"Furiosa, here. Zheng He, I am at -949, 73, -3048 and I hear you. The crowd is still close, so tell me when you are alone with me and I will take the 2 planks."}
+- 02:54 act: {"actions":[{"do":"goto","target":{"x":-958,"y":73,"z":-3049}},{"do":"use","at":{"x":-959,"y":73,"z":-3047}}],"say":"Furiosa, night 1191. Trying a bed at the west end of the row, still in the group's 
+- 03:07 act: {"actions":[{"do":"use","at":{"x":-957,"y":73,"z":-3048}}],"say":"Furiosa, night 1192, at the row in the group's sight. Trying the bed at -957,73,-3048. Health and hunger 20."}
+- 03:08 say: {"text":"Indy, Furiosa here. My one dark oak plank is Quark's, from you, so it goes to Quark when he stands alone in my reach. Hunger is fine, no food needed from you."}
+- 03:11 act: {"actions":[{"do":"goto","target":{"x":-956,"y":73,"z":-3057}},{"do":"use","at":{"x":-956,"y":73,"z":-3059}}],"say":"Furiosa, day 1192. Trying a bed on the north row, not the south one that refused me
+- 03:34 act: {"say":"Furiosa, morning 1193. I hold one dark oak plank, and it is owed to Quark from you. I will hand it over when Quark stands alone within my reach and says so. I stay at the row in sight."}
+- 03:46 act: {"actions":[{"do":"use","at":{"x":-955,"y":73,"z":-3059}}],"say":"Furiosa, night 1194. Trying a bed at -955,73,-3059 in the group's sight. Health 20, hunger 20."}
+- 03:59 act: {"actions":[{"do":"use","at":{"x":-954,"y":73,"z":-3047}}],"intent":{"goal":"sleep_in_bed_at_row","program":"rest","arguments":{},"wake_on":["directly_addressed","unexpected_damage"],"limits":{"max_wo
+- 04:01 say: {"text":"Furiosa, morning 1194. I hold 1 dark oak plank, promised to Quark. Quark, when you stand alone in my reach I will hand it to you. Indy, I will not give it to anyone else."}
+- 04:10 act: {"actions":[{"do":"use","at":{"x":-949,"y":73,"z":-3047}}]}
+- 04:50 say: {"text":"Furiosa here, at the bed row near (-956, 73, -3056). Zheng He, I am named and waiting for you to come within reach. I hold 1 dark oak plank for Quark."}
+- 04:50 say: {"text":"Furiosa: Quark, I have your dark oak plank. Come alone within my reach and I will give it. I am staying still at the row."}
+- 04:51 act: {"actions":[{"do":"give","to":"ag_quark_01","item":"dark_oak_planks","count":1}],"say":"Quark, here is your dark oak plank, as owed from Indy."}
+- 04:52 say: {"text":"Furiosa, morning 1197, still at the row, hunger 20. Zheng He, I am standing still at (-957, 73, -3056). Come alone within my reach and I will take my 2 planks and say thank you."}
+- 05:02 say: {"text":"Furiosa, morning 1197 at the row. Health 20, hunger 20, pack empty. Zheng He, when you are alone in my reach I will take the 2 oak planks you owe me."}
